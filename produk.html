@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome My Resto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="kotol.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="produk.html">History</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Exploration</a></li>
+        <li class="nav-item"><a class="nav-link disabled">Role player</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="container-fluid banner d-flex align-items-center">
+  <div class="container text-center">
+    <h2 class="text-light display-5 mb-3">Welcome My Resto</h2>
+    <h3 class="text-light fs-5 mb-4">何を注文しますか？</h3>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group input-group-lg">
+          <select class="form-select">
+            <option selected>SAMBEL LELE</option>
+            <option>AYAM GORENG</option>
+            <option>SOTO AYAM</option>
+            <option>IKAN BAKAR</option>
+          </select>
+          <button class="btn btn-warning" type="button">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid py-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- kategori -->
+      <div class="col-md-4 col-lg-3 mb-5">
+        <h4>Kategori</h4>
+        <ul class="list-group">
+          <li class="list-group-item active">I am active item</li>
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+
+      <!-- produk -->
+      <div class="col-md-8">
+        <div class="row">
+
+          <!-- CARD START -->
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="sambel lele.jpg" data-lightbox="kintul" data-title="LELE GORENG">
+                <img src="sambel lele.jpg" class="card-img-top" alt="kintul">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>LELE GORENG</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="ayam goreng.jpg" data-lightbox="kintul" data-title="AYAM GORENG">
+                <img src="ayam goreng.jpg" class="card-img-top" alt="kintul">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>AYAM GORENG</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="soto ayam.jpg" data-lightbox="kintul" data-title="SOTO AYAM">
+                <img src="soto ayam.jpg" class="card-img-top" alt="kintul">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>SOTO AYAM</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="ikan bakar.jpg" data-lightbox="kintul" data-title="IKAN BAKAR">
+                <img src="ikan bakar.jpg" class="card-img-top" alt="kintul">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>IKAN NILA BAKAR</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="bebek goreng.jpg" data-lightbox="kintul" data-title="BEBEK GORENG">
+                <img src="bebek goreng.jpg" class="card-img-top" alt="kintul">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>BEBEK GORENG</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="lele bakar.jpg" data-lightbox="kintul" data-title="LELE BAKAR">
+                <img src="lele bakar.jpg" class="card-img-top" alt="kintul">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>LELE BAKAR</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="ikan nila.jpg" data-lightbox="kintul" data-title="IKAN NILA GORENG">
+                <img src="ikan nila.jpg" class="card-img-top" alt="kintul">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>IKAN NILA GORENG</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="lalapan.jpg" data-lightbox="kintul" data-title="LALAPAN GORENG">
+                <img src="lalapan.jpg" class="card-img-top" alt="kintul">
+              </a>
+
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>LALAPAN</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4">
+            <h4 class="text-center mb-4">Produk</h4>
+            <div class="card h-100">
+              <a href="ikan bandeng.jpg" data-lightbox="kintul" data-title="IKAN BANDENG GORENG">
+                <img src="ikan bandeng.jpg" class="card-img-top" alt="kintul">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center text-warning">
+                  <strong>IKAN BANDENG GORENG</strong>
+                </h5>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up the bulk of the card content.
+                </p>
+                <h4 class="text-center text-warning mb-3">Rp 3.000.000</h4>
+
+                <div class="dropdown text-center">
+                  <button class="btn btn-outline-warning dropdown-toggle w-100"
+                          type="button"
+                          data-bs-toggle="dropdown">
+                    Selengkapnya
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="detail.html">Lihat</a></li>
+                    <li><a class="dropdown-item" href="#">Beli</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center mt-4">
+              <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- SUBSCRIBE SECTION -->
+<div class="container-fluid py-5 footer-section">
+  <div class="container">
+    
+    <h5 class="text-center text-light mb-4">Temui Kami di Media Sosial</h5>
+
+    <div class="d-flex justify-content-center mb-5" style="gap:70px;">
+      <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+    </div>
+
+    <h5 class="text-center text-light mb-1">Subscribe</h5>
+    <p class="text-center text-light mb-3">untuk informasi promo</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="ketikan Email">
+          <button class="btn btn-warning text-light">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER UTAMA -->
+<footer class="footer-bottom py-4">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="fw-bold text-light">WARUUNG PECEL LELE ADMIN UYAB</h5>
+        <p class="text-muted small">WARUNG MAKAN TERENAK DI KOTA MOJOKERTO DENGAN BINTANG 5 DAN RATING 5</p>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h6 class="fw-bold mb-3 text-light">Navigasi</h6>
+        <ul class="list-unstyled">
+          <li><a href="kotol.html" class="text-muted">Home</a></li>
+          <li><a href="#" class="text-muted">Produk</a></li>              
+          <li><a href="#" class="text-muted">Promo</a></li>
+          <li><a href="#" class="text-muted">Reservasi</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6 class="fw-bold mb-3 text-light">Kontak</h6>
+        <ul class="list-unstyled text-muted small">
+          <li class="mb-1"><i class="bi bi-geo-alt-fill me-2 text-light"></i><span class="text-muted">Jl. Jomokkerto No.30, NGAWI</span></li>
+          <li class="mb-1"><i class="bi bi-telephone-alt-fill me-2 text-light"></i><span class="text-muted">+62 815 9906 4532</span></li>
+          <li class="mb-1"><i class="bi bi-envelope-fill me-2 text-light"></i><span class="text-muted">info@kafeadmin.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="border-secondary mt-4 mb-3">
+    <p class="text-center text-muted small mb-0">
+      &copy; 2025 Kafe Saya. All Rights Reserved
+    </p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
